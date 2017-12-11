@@ -1,0 +1,51 @@
+{
+	"name": "veams-services",
+	"version": "1.0.0",
+	"description": "Services provided by Veams.",
+	"main": "lib/index.js",
+	"browserify": {
+		"transform": [
+			"babelify"
+		]
+	},
+	"scripts": {
+		"dev": "NODE_ENV=dev webpack --progress --colors --watch --config webpack.js",
+		"build": "NODE_ENV=dev webpack --config webpack.js && NODE_ENV=prod webpack --config webpack.js"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-eslint": "5.0.0",
+		"babel-loader": "^7.1.2",
+		"babel-plugin-add-module-exports": "^0.1.2",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-plugin-transform-decorators-legacy": "^1.3.4",
+		"babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-es2015": "^6.9.0",
+		"babel-preset-stage-0": "^6.24.1",
+		"babelify": "^7.3.0",
+		"eslint": "1.7.2",
+		"eslint-loader": "1.1.0",
+		"uglifyjs-webpack-plugin": "^1.1.2",
+		"webpack": "^3.10.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/veams/veams-helpers.git"
+	},
+	"keywords": [
+		"veams",
+		"veams-plugins",
+		"handlebars",
+		"templates"
+	],
+	"author": "Sebastian Fitzner",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/veams/veams-helpers/issues"
+	},
+	"homepage": "https://veams.org/",
+	"dependencies": {
+		"veams-helpers": "^1.0.1"
+	}
+}
