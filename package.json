@@ -1,6 +1,6 @@
 {
 	"name": "veams-services",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Services provided by Veams.",
 	"main": "lib/index.js",
 	"browserify": {
@@ -31,7 +31,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/veams/veams-helpers.git"
+		"url": "https://github.com/veams/veams-services.git"
 	},
 	"keywords": [
 		"veams",
@@ -42,7 +42,7 @@
 	"author": "Sebastian Fitzner",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/veams/veams-helpers/issues"
+		"url": "https://github.com/veams/veams-services/issues"
 	},
 	"homepage": "https://veams.org/",
 	"dependencies": {
